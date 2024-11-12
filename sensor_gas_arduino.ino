@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-  int gasLevel = analogRead(gasSensorPin); //
+  int gasLevel = analogRead(gasSensorPin); 
   Serial.print("Nível de gás: ");
   Serial.println(gasLevel);               
   
